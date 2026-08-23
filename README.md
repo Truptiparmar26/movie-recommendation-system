@@ -36,54 +36,49 @@ Add screenshots of your application here.
 - 📱 Responsive UI
 
 ---
+🛠️ Tech Stack
+Programming Language
+Python
+Machine Learning & Data Processing
+Pandas
+NumPy
+Scikit-learn
+NLP
+TF-IDF
+Cosine Similarity
+Feature Engineering
+Backend
+Flask
+Frontend
+HTML
+CSS
+JavaScript
+Data Storage
+Pickle
+JSON
+Dataset
+TMDB 5000 Movies Dataset
 
-## 🛠️ Tech Stack
-
-### Programming
-- Python
-
-### Machine Learning
-- Scikit-learn
-- NumPy
-- Pandas
-
-### NLP
-- TF-IDF / Text Vectorization
-- Cosine Similarity
-- Feature Engineering
-
-### Backend
-- Flask
-
-### Data Storage
-- Pickle
-
-### Development
-- Jupyter Notebook
-- VS Code
-
----
 
 ## 📂 Project Structure
 
 ```text
-movie-recommendation-system/
+ai movie/
 │
-├── app.py
-├── movies.pkl
-├── similarity.pkl
-├── requirements.txt
-├── README.md
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   ├── css/
+├── backend/
+│   ├── static/
+│   │   ├── movies_list.json
 │   │   └── style.css
-│   └── js/
-│       └── script.js
+│   │
+│   ├── templates/
+│   │   └── index.html
+│   │
+│   └── app.py
 │
-└── assets/
-    ├── home.png
-    └── recommendation.png
+├── dataset/
+│   ├── tmdb_5000_credits.csv
+│   └── tmdb_5000_movies.csv
+│
+├── idf.pkl
+├── movies.pkl
+└── similarity.pkl
