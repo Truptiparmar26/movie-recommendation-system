@@ -4,26 +4,6 @@ A content-based Movie Recommendation System built using Python, Machine Learning
 
 ---
 
-## 🚀 Live Demo
-
-> 🚧 Live demo coming soon.
-
----
-
-## 📸 Screenshots
-
-Add screenshots of your application here.
-
-### 🏠 Home Page
-
-![Home Page](assets/home.png)
-
-### 🎥 Movie Recommendation
-
-![Movie Recommendation](assets/recommendation.png)
-
----
-
 ## ✨ Features
 
 - 🎬 Search for a movie
